@@ -12,4 +12,10 @@ Screenshot (28)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivit
 ![Screenshot (29)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/f288e6f3-7470-42c9-b8d7-05e3cfa26f38)
 ![Screenshot (30)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/86ed1160-0d07-406e-ac6e-bcaf96ae805f)
 ![Screenshot (31)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/74509117-fe46-436d-a867-9813b5eb22ab)
+![Screenshot (32)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/f918b635-d73c-43ed-bdcb-5dfa59605eb6)
+![Screenshot (33)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/551178c9-6204-467a-b500-e0f7819f5396)
+![Screenshot (34)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/b2b4ab4d-698a-4e68-a25c-0824600153a8)
+![Screenshot (35)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/72339367-6841-4400-abdc-bd09deff27b1)
+![Screenshot (36)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/ee5aebd7-7ed7-4a94-bb28-a314ae5e2100)
+![Screenshot (37)](https://github.com/Vinayakkhot/Phone-Freedom-Remote-Connectivity-with-internet-Boundary/assets/123005178/d5272683-c63f-4765-b898-b9fcb0b5e280)
 
