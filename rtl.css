@@ -1,0 +1,19 @@
+/* rtl.css */
+body {
+    direction: rtl;
+}
+
+.form-control {
+    /* Adjust styles for RTL if necessary */
+}
+
+/* Flip alignments, margins, paddings, etc., as needed */
+.navbar {
+    /* Adjust for RTL */
+}
+
+.content {
+    /* Adjust content alignment for RTL */
+}
+
+/* Continue adjusting elements as needed */

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Set Alarm{% endblock %}
+
+{% block index %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    {% if alarm == True %}
+                <audio id="alarmTone" src="https://www.fesliyanstudios.com/play-mp3/4385" preload="auto"></audio>
+    {% endif %}
+</div>
+
+<script>
+        alarmTone = document.getElementById('alarmTone');
+        alarmTone.play();
+</script>
+{% endblock %}

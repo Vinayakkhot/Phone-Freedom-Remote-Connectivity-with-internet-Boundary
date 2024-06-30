@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Set Alarm{% endblock %}
+
+{% block index %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <p>Alarm value: {{ alarm }}</p>
+    <p>Current time: {{ current_time }}</p>
+    <p>Alarm exists: {{ alarm_exists }}</p>
+    {% if alarm != "None" %}
+        <button onclick="setAlarm()">Set Alarm</button>
+    {% else %}
+        <p>Hello User</p>
+    {% endif %}
+
+</div>
+
+<audio id="alarmTone" src="https://www.fesliyanstudios.com/play-mp3/4385" preload="auto"></audio>
+
+<script>
+    function setAlarm() {
+        var alarmTone = document.getElementById('alarmTone');
+        alarmTone.play();
+    }
+</script>
+{% endblock %}

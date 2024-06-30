@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Alarm List{% endblock %}
+
+{% block style %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    /* Custom styles for the alarm list page */
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2196F3; /* Materialize primary color */
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-header {
+        background-color: #f0f0f0; /* Light grey background */
+        font-weight: bold;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .btn-group {
+        margin-bottom: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block index %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Alarm List</h1>
+    <div class="btn-group">
+        <a href="{% url 'create_alarm' %}" class="btn btn-primary">Add Alarm</a>
+    </div>
+    {% if alarms %}
+        {% for alarm in alarms %}
+            <div class="card">
+                <div class="card-header">
+                    {{ alarm.title }}
+                </div>
+                <div class="card-body">
+                    <p><strong>Time:</strong> {{ alarm.time }}</p>
+                    <p><strong>Date:</strong> {{ alarm.date }}</p>
+                    <p><strong>Username:</strong> {{ alarm.user }}</p>
+                    <div class="btn-group">
+                        <a href="{% url 'edit_alarm' alarm.id %}" class="btn btn-info">Edit</a>
+                        <a href="{% url 'delete_alarm' alarm.id %}" class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No alarms found.</p>
+    {% endif %}
+</div>
+{% endblock %}

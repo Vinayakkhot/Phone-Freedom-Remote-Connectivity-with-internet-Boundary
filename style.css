@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, #d2e2ed, #83acc8, #4891c2, #2980b9);
+    height: 100%;
+}
+
+nav {
+    @apply fixed top-0 left-0 w-full z-1000 bg-white bg-opacity-80 p-10;
+}
+
+.content {
+    @apply relative z-1;
+}
+
+p {
+    @apply line-height[1.8];
+}
+
+a {
+    @apply text-blue-500 no-underline;
+    &:hover {
+        @apply text-blueviolet;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-muli font-normal;
+}
+
+h1 {
+    @apply border-b-2 border-gray-300 pb-10 mb-20;
+}
+
+h2 {
+    @apply margin[30px 0 20px];
+}
+
+ol {
+    @apply line-height[1.5];
+}
+
+#header {
+    @apply fixed top-0 w-full z-1000 bg-white bg-opacity-80 p-10;
+}
+
+#header .logo {
+    @apply font-muli float-left text-white text-2xl ml-4 font-bold mt-2;
+}
+
+#header ul.menu {
+    @apply list-none fixed top-0 right-15% mt-2 z-1000 text-white;
+    li {
+        @apply float-left px-4 py-2;
+        a, &.selected a:hover {
+            @apply font-bold text-blue-500;
+        }
+    }
+}
+
+#header a {
+    @apply text-white;
+    &:hover {
+        @apply text-white;
+    }
+}
+
+#header .user {
+    @apply float-right pt-4;
+}
+
+#content {
+    @apply padding[30px 100px];
+}
+
+form {
+    @apply overflow-auto;
+}
+
+form p {
+    @apply w-full overflow-auto;
+}
+
+label {
+    @apply float-left clear-both text-gray-700 mb-4;
+}
+
+input, textarea {
+    @apply clear-both m-0 mx-15px my-10 bg-gray-300 border-0 p-6 text-base;
+}
+
+input[type="submit"], a.button {
+    @apply font-bold bg-blue-500 text-white p-4 text-base uppercase;
+}
+
+.errorlist {
+    @apply text-red-600 float-left clear-both pl-10;
+}
+
+.helptext {
+    @apply margin[0 0 20px 0] text-gray-500 clear-both float-left text-sm;
+}
+
+ul.messages {
+    @apply margin[10px 100px] padding-0 list-none;
+}
+
+ul.messages li {
+    @apply mb-0 p-14px px-20px list-none;
+    &.success {
+        @apply bg-green-500;
+        a {
+            @apply text-green-900;
+        }
+    }
+    &.error {
+        @apply bg-red-700 text-white;
+        a {
+            @apply text-white;
+        }
+    }
+    &.info {
+        @apply bg-yellow-200 text-yellow-800;
+        a {
+            @apply text-blue-600;
+        }
+    }
+    &.warning {
+        @apply bg-orange-500;
+        a {
+            @apply text-orange-900;
+        }
+    }
+    a.close {
+        @apply margin-0 float-right opacity-100 border-0 box-shadow-none text-shadow-none;
+    }
+}
+
+.login-form {
+    @apply float-left;
+}
